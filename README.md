@@ -82,6 +82,4 @@ In altmaintain10.py joystick has been bridged to the guided mode of ardupilot so
 
 
 
-
-
-https://github.com/codemaster1104/UAV/assets/115527374/d0472412-7819-4752-9598-d71506a3a10b
+https://github.com/prathameshdv/Terrain-following-using-Depth-Camera-feed/blob/main/pth.mp4
