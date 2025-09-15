@@ -79,7 +79,5 @@ The data processing scripts also subscribe to imu data and adjust the data accor
 
 In altmaintain10.py joystick has been bridged to the guided mode of ardupilot so that pilot can control roll, yaw and pitch of drone whereas altitude is taken care of autonomously
 
+[▶️ Watch Demo Video](https://github.com/prathameshdv/Terrain-following-using-Depth-Camera-feed/blob/main/pth.mp4?raw=true)
 
-
-
-https://github.com/prathameshdv/Terrain-following-using-Depth-Camera-feed/blob/main/pth.mp4
