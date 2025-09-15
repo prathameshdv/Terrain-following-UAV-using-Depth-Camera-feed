@@ -46,7 +46,7 @@ Now run the altmaintain11.py script in src
 
 
     
-[Screencast from 08-07-24 03:21:10 PM IST.webm](https://github.com/codemaster1104/UAV/assets/115527374/7340066e-d0f3-4b90-83c0-3dbc77585eac)
+[Screencast from 08-07-24 03:21:10 PM IST.webm](pth.mp4)
 
 
 # Overview of algorithm
