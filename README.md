@@ -1,6 +1,4 @@
 # Terrain-following-using-Depth-Camera-feed
-
-# UAV project
 ### Objective: Terrain following using depth camera feed
 ## This project assumes that you are working on Ubuntu 20.04
 
