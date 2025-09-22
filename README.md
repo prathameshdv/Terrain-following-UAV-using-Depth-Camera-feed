@@ -1,27 +1,13 @@
 # Terrain-following-using-Depth-Camera-feed
 ### Objective: Terrain following using depth camera feed
-## This project assumes that you are working on Ubuntu 20.04
-
-# Build required SDK's
-[Ardupilot](https://docs.google.com/document/d/1ihAxgX1y3yRMqRnX1yWfk9WDaxZt8JmtFyEddi13SWw/edit)
-
-[Realsense SDK](https://www.mouser.com/applications/getting-started-with-realsense-d455/)
-
-
-
-
-    
-[Screencast from 08-07-24 03:21:10 PM IST.webm](pth.mp4)
 
 
 # Overview of algorithm
-The drone has 2 realsense depth cameras attached to it in this simulation
+The drone is equipped with two RealSense depth cameras in this simulation.
 
-Processing downward depth data is fairly easy we are looking for the hieghest tree and its position by searching for the lowest depth pixel value and its position in image
+Downward-facing camera: Processing is straightforward — we identify the tallest tree and its location by finding the pixel with the smallest depth value in the image.
 
-For front facing camera we are forming a terrain map by using a edge detection algorithm, this visualisation can be done by running front.py, f2.py is more optimised version of it just looking for first such pixel
-![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](dep.png)
-
+Front-facing camera: We generate a terrain map using an edge detection algorithm. This visualization can be viewed by running front.py. For a more optimized approach that only searches for the first relevant pixel, f2.py can be used.
 
 [Screencast from 08-07-24 03:21:10 PM IST.webm](pth.mp4)
 
@@ -35,8 +21,8 @@ Then run following command to initialise its node
     roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
     
 Now you can visualise depth data using  rviz or d2.py
+![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](dep.png)
 
-![Screenshot from 2024-06-28 14-15-33](https://github.com/codemaster1104/UAV/assets/115527374/1f188de1-9f4e-40df-9005-3d6f2650f6e8)
 
 Now the f2.py equivalent for real hardware is r_front.py
 
