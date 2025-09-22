@@ -1,8 +1,8 @@
-# Terrain-following-using-Depth-Camera-feed
-### Objective: Terrain following using depth camera feed
+# Terrain-following-UAV-using-Depth-Camera-feed
+ Objective: To achieve terrain following by utilizing the drone’s depth camera feed
 
 
-# Overview of algorithm
+## Overview of algorithm
 The drone is equipped with two RealSense depth cameras in this simulation.
 
 Downward-facing camera: Processing is straightforward — we identify the tallest tree and its location by finding the pixel with the smallest depth value in the image.
@@ -31,7 +31,7 @@ The data processing scripts also subscribe to imu data and adjust the data accor
 
 # Roll, yaw, pitch in manual control
 
-In altmaintain10.py joystick has been bridged to the guided mode of ardupilot so that pilot can control roll, yaw and pitch of drone whereas altitude is taken care of autonomously
+In altmaintain10.py, the joystick is bridged to ArduPilot’s Guided mode, allowing the pilot to control the drone’s roll, yaw, and pitch, while altitude is maintained autonomously.
 
 [▶️ Watch Demo Video](https://github.com/prathameshdv/Terrain-following-using-Depth-Camera-feed/blob/main/pth.mp4?raw=true)
 
