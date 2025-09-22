@@ -13,7 +13,7 @@ Front-facing camera: We generate a terrain map using an edge detection algorithm
 
 Once we have data from front and downward facing camera alt_maintain11.py performs decision making for which feed to prioritise and adjusts the z velocity of drone accordingly
 
-# Using Intel real sense hardware
+## Using Intel real sense hardware
 
 First build [Realsense SDK](https://www.mouser.com/applications/getting-started-with-realsense-d455/)
 Then run following command to initialise its node
