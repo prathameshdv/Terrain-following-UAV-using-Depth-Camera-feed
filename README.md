@@ -9,7 +9,7 @@ Downward-facing camera: Processing is straightforward — we identify the talles
 
 Front-facing camera: We generate a terrain map using an edge detection algorithm. This visualization can be viewed by running front.py. For a more optimized approach that only searches for the first relevant pixel, f2.py can be used.
 
-[Screencast from 08-07-24 03:21:10 PM IST.webm](pth.mp4)
+[Screencast from 08-07-24 03:21:10 PM IST.webm](https://github.com/prathameshdv/Terrain-following-UAV-using-Depth-Camera-feed/blob/main/dd.webm)
 
 Once we have data from front and downward facing camera alt_maintain11.py performs decision making for which feed to prioritise and adjusts the z velocity of drone accordingly
 
