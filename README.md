@@ -9,7 +9,7 @@ Downward-facing camera: Processing is straightforward — we identify the talles
 
 Front-facing camera: We generate a terrain map using an edge detection algorithm. This visualization can be viewed by running front.py. For a more optimized approach that only searches for the first relevant pixel, f2.py can be used.
 
-[Screencast from 08-07-24 03:21:10 PM IST.webm](https://github.com/prathameshdv/Terrain-following-UAV-using-Depth-Camera-feed/blob/main/dd.webm)
+
 
 Once we have data from front and downward facing camera alt_maintain11.py performs decision making for which feed to prioritise and adjusts the z velocity of drone accordingly
 
@@ -20,8 +20,6 @@ Then run following command to initialise its node
 
     roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
     
-Now you can visualise depth data using  rviz or d2.py
-![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](dep.png)
 
 
 Now the f2.py equivalent for real hardware is r_front.py
@@ -33,5 +31,4 @@ The data processing scripts also subscribe to imu data and adjust the data accor
 
 In altmaintain10.py, the joystick is bridged to ArduPilot’s Guided mode, allowing the pilot to control the drone’s roll, yaw, and pitch, while altitude is maintained autonomously.
 
-[▶️ Watch Demo Video](https://github.com/prathameshdv/Terrain-following-using-Depth-Camera-feed/blob/main/pth.mp4?raw=true)
 
